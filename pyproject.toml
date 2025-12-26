@@ -1,0 +1,37 @@
+[project]
+name = "xilisuite"
+version = "0.1.0"
+description = "XiLiSuite: 专注于数据分析与梳理的工具套件"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gradio>=4.19.0",
+    "imageio>=2.0.0",
+    "wordcloud>=1.9.0",
+    "matplotlib>=3.5.0",
+    "pillow>=10.0.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "jieba>=0.42.0",
+    "docx2txt>=0.8",
+    "scikit-learn>=1.2.0",
+    "seaborn>=0.12.0",
+    "tqdm>=4.66.0",
+    "gensim>=4.3.0",
+    "pyLDAvis>=3.4.0",
+    "snownlp>=0.12.3",
+    "scipy>=1.10.0",
+    "openpyxl>=3.1.0",
+    "nuitka>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# 新增的部分：指定包的构建目标
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
