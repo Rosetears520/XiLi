@@ -1,12 +1,17 @@
 # XiLiSuite（溪狸析理）
 
-[![License](https://img.shields.io/github/license/Rosetears520/XiLi)](https://github.com/Rosetears520/XiLi)
+[![GitHub license](https://img.shields.io/github/license/Rosetears520/XiLi?style=flat-square)](https://github.com/Rosetears520/XiLi/blob/main/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/)
+[![Blog](https://img.shields.io/badge/Blog-rosetears.cn-pink?style=flat-square)](https://rosetears.cn)
+[![GitHub issues](https://img.shields.io/github/issues/Rosetears520/XiLi?style=flat-square)](https://github.com/Rosetears520/XiLi/issues)
+[![Afdian](https://img.shields.io/badge/Support-%E7%88%B1%E5%8F%91%E7%94%B5-purple?style=flat-square)](https://afdian.com/a/rosetears)
 
 XiLiSuite 是一套专注于**数据分析与梳理**的工具套件，强调易使用、可复用、可复现。  
 像一只狸花猫在数据的小溪边捡光拾花，把凌乱一点点理顺，让答案在喧嚣里也清亮可见。  
 
-![XiLiSuite Logo](assets/logo.png)
+<div align="center">
+  <img src="assets/logo.png" alt="XiLiSuite Logo" width="50%">
+</div>
 
 ## 功能概览
 
@@ -55,12 +60,12 @@ uv run -- pytest -q
 
 ### 数据处理与统计分析
 
-* `kmeans.py` / `K-means.py`：K-Means 聚类（可能存在重复版本，建议后续收敛为一个）
+* `kmeans.py`：K-Means 聚类
 * `yearly_average.py`：年度平均值计算
 * `average_growth_rate.py`：年均增长率计算/填补
 * `linear_interpolation.py`：线性插值（缺失值处理）
-* `comprehensive_grouping_test.py`：分组综合测试脚本（偏验证/实验）
-* `test_grouping.py`：分组逻辑测试脚本（偏验证/实验）
+* `comprehensive_grouping_test.py`：分组综合测试脚本
+* `test_grouping.py`：分组逻辑测试脚本
 
 ### 图像与文本工具
 
@@ -100,7 +105,7 @@ powershell -ExecutionPolicy Bypass -File scripts/build/build_nuitka.ps1
 * `common/`：通用 CLI、路径、运行上下文与输出封装
 * `tests/`：自动化测试
 * `assets/`：资源文件（图标/示例等）
-* `archive/` / `legacy/`：历史内容与迁移保留（可逐步整理瘦身）
+* `archive/` / `legacy/`：历史内容与迁移保留
 
 ## 常见问题
 
@@ -116,3 +121,5 @@ powershell -ExecutionPolicy Bypass -File scripts/build/build_nuitka.ps1
 * **作者博客**: [https://rosetears.cn](https://rosetears.cn) 
 * **开源协议**: MIT License
 * **问题反馈**: 请通过 [Issues](https://github.com/Rosetears520/XiLi/issues) 提交反馈
+* **赞助支持**：请前往 [爱发电](https://afdian.com/a/rosetears) 支持  
+
