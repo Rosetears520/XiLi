@@ -14,6 +14,7 @@ dist/
 build/
 test/
 test_run/
+openspec/
 *.log
 *.zip
 *.dist/
